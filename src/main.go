@@ -3,7 +3,7 @@ package main
 import "net/http"
 
 func main() {
-	http.HandleFunc("/", rootHandler)
+	http.HandleFunc("/conv", rootHandler)
 	http.ListenAndServe(":80", nil)
 }
 
